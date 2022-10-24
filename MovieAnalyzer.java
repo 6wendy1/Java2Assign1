@@ -40,17 +40,17 @@ public class MovieAnalyzer {
 
         public Movie(String movieName, Integer rsYear, String genre, String star1, String star2, String star3, String star4,
                      Integer runtime, String overview, Float rating, Integer gross) {
-            this.movieName = movieName;
-            this.rsYear = rsYear;
-            this.genre = genre;
-            this.star1 = star1;
-            this.star2 = star2;
-            this.star3 = star3;
-            this.star4 = star4;
-            this.runtime = runtime;
-            this.overview = overview;
-            this.rating = rating;
-            this.gross = gross;
+      this.movieName = movieName;
+      this.rsYear = rsYear;
+      this.genre = genre;
+      this.star1 = star1;
+      this.star2 = star2;
+      this.star3 = star3;
+      this.star4 = star4;
+      this.runtime = runtime;
+      this.overview = overview;
+      this.rating = rating;
+      this.gross = gross;
         }
 
         public Integer getRsYear() {
